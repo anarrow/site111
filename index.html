@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Raleway&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header center">
+        <a class="header__link" href="#about">Обо мне</a>
+        <a class="header__link" href="#portfolio">Портфолио</a>
+        <a class="header__link" href="#experience">Опыт работы</a>
+        <a class="header__link" href="#education">Образование</a>
+        <a class="header__link" href="#contacts">Контакты</a>
+    </header>
+    <div class="main center_main">
+        <div class="main__title">
+            <h1 class="title">
+                Жабина Анна
+            </h1>
+            <h2 class="title2">
+                GRAPHIC <br>
+                WEB <br>
+                DESIGNER
+            </h2>
+        </div>
+        <img class="main_img" src="img/Main.jpg" alt="">
+    </div>
+    <div class="about center" id="about">
+        <h3 class="heading">
+            Обо мне
+        </h3>
+        <div class="about__content">
+            <div class="about__icons">
+                <img src="img/IconPhotoshop.png" alt="">
+                <img src="img/IconFigma.png" alt="">
+                <img src="img/IconTilda.svg" alt="">
+            </div>
+            <p class="about__paragraph">
+                Привет, меня зовут Анна и я веб-дизайнер. Я могу сделать потрясающий продающий дизайн для вашего
+                бизнеса.
+                <br>
+                Я люблю создавать эстетичные и граммотные дизайн проекты. <br>
+                Смогу помочь в реализации вашей мечты о собственном приложении или сайте.
+            </p>
+        </div>
+    </div>
+    <div class="portfolio center" id="portfolio">
+        <h3 class="heading">
+            Портфолио
+        </h3>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Work1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Work2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Work3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Work4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="ex center" id="experience">
+
+        <h3 class="heading">
+            Опыт работы
+        </h3>
+        <div class="ex__row">
+            <img class="image" src="img/IconFree.svg" alt="">
+            <div class="ex__text">
+                <p>Я беру самые разные проекты от разных людей и организаций. Каждый проект как и каждый заказчик
+                    уникален и
+                    индивидуален. <br>В работа над проектами включала:</p>
+                <ul>
+                    <li>Брендинг</li>
+                    <li>Создание логотипов</li>
+                    <li>Дизайн визитных карт, чек-листов, прайс-листов</li>
+                    <li>Дизайн упаковки</li>
+                    <li>Оформление рекламы для соц сетей</li>
+                </ul>
+            </div>
+        </div>
+        <div class="ex__row">
+            <img class="image" src="img/IconDO.svg" alt="">
+            <div class="ex__text">
+                <p>Работа в качестве multy-skilled designer в крупной сети салонов обуви города Оренбург. <br> В мои
+                    обязанности
+                    входит:</p>
+                <ul>
+                    <li>Разработка дизайна для онлайн и оффлайн рекламы</li>
+                    <li>Оформление торговых пространств</li>
+                    <li>Подготовка макетов к печати</li>
+                    <li>Оформление инфографики для маркетплейсов</li>
+                    <li>Создание рекламных видеороликов</li>
+                    <li>Авторский надзор</li>
+                    <li>Web-design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="ed center" id="education">
+        <h3 class="heading">
+            Образование
+        </h3>
+        <div class="ed__row">
+            <img class="image" src="img/IconGB.svg" alt="">
+            <div class="ed__text">
+                <p>
+                    Онлайн-университет GeekBrains, специализация «Цифровой дизайнер». <br>
+                    В программу входили следующие дисциплины:
+                </p>
+                <ul>
+                    <li>Композиция, типографика, подготовка макета к вёрстке</li>
+                    <li>Adobe Photoshop, Figma, Tilda</li>
+                    <li>Основы HTML-вёрстки</li>
+                    <li>Основы исследования аудитории</li>
+                    <li>Основы проектирования интерфейсов (UX/UI-дизайн)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="ed__row">
+            <img class="image" src="img/IconOSU.svg" alt="">
+            <div class="ed__text">
+                <p>Оренбургский государственный университет, бакалавриат, специализация «Архитектура». <br> В программу
+                    входили
+                    следующие дисциплины:</p>
+                <ul>
+                    <li>История пространственных искусств</li>
+                    <li>Предпроектный и проектный аналез в дизайне</li>
+                    <li>Рисунок и художественная графика</li>
+                    <li>Современная архитектура и дизайн</li>
+                    <li>Русский авангард. Концепции</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="contacts center" id="contacts">
+        <h3 class="heading">
+            Контакты
+        </h3>
+        <div class="contacts__content">
+            <a class="contacts__link" href="mailto:anna.rom99@yandex.ru">anna.rom99@yandex.ru</a>
+            <a class="contacts__link" href="tel:+79228269401">+7 922 826 94 01</a>
+        </div>
+    </div>
+    <footer class="footer center">
+        <a href="https://wa.me/+79228269401">
+            <img class="footerimg" src="img/IconWatsapp.png" alt="">
+        </a>
+        <a href="http://t.me/an_arrow">
+            <img class="footerimg" src="img/IconTg.png" alt="">
+        </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
